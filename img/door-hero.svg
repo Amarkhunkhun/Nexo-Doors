@@ -1,0 +1,39 @@
+<svg viewBox="0 0 600 680" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hpaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f5f0"></stop>
+      <stop offset="1" stop-color="#ece6dd"></stop>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#f0c074" stop-opacity="0.55"></stop>
+      <stop offset="0.6" stop-color="#e9a84e" stop-opacity="0.18"></stop>
+      <stop offset="1" stop-color="#e9a84e" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="680" fill="url(#hpaper)"></rect>
+  <rect x="150" y="120" width="300" height="430" fill="url(#hglow)"></rect>
+  
+  <line x1="0" y1="566" x2="600" y2="566" stroke="#cbc2b6" stroke-width="2"></line>
+  
+  <ellipse cx="300" cy="572" rx="172" ry="15" fill="#2a1f10" opacity="0.12"></ellipse>
+  
+  <rect x="186" y="92" width="228" height="474" fill="none" stroke="#26221e" stroke-width="3"></rect>
+  <rect x="198" y="104" width="204" height="462" fill="#f4f0ea" stroke="#26221e" stroke-width="1.5"></rect>
+  
+  <rect x="210" y="116" width="180" height="450" fill="#efe9e1" stroke="#26221e" stroke-width="2"></rect>
+  
+  <g stroke="#cdc4b7" stroke-width="1.4">
+    <line x1="228" y1="130" x2="228" y2="552"></line>
+    <line x1="246" y1="130" x2="246" y2="552"></line>
+    <line x1="264" y1="130" x2="264" y2="552"></line>
+    <line x1="282" y1="130" x2="282" y2="552"></line>
+    <line x1="300" y1="130" x2="300" y2="552"></line>
+    <line x1="318" y1="130" x2="318" y2="552"></line>
+    <line x1="336" y1="130" x2="336" y2="552"></line>
+    <line x1="354" y1="130" x2="354" y2="552"></line>
+    <line x1="372" y1="130" x2="372" y2="552"></line>
+  </g>
+  
+  <rect x="356" y="300" width="7" height="150" rx="3.5" fill="#d47e19"></rect>
+  <rect x="356" y="300" width="7" height="150" rx="3.5" fill="none" stroke="#b3680f" stroke-width="1"></rect>
+</svg>

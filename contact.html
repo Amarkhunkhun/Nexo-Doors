@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Nexo Doors</title>
+<meta name="description" content="Tell Nexo Doors about your project — interior, front or custom doors for your Bay Area home." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@300;400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="index.html"><img class="logo-img" src="logo-dark.png" alt="Nexo Doors" /></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <a class="nav-phone" href="tel:6506606396">650·660·6396</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ===== Contact ===== -->
+<section class="contact">
+  <div class="wrap contact-grid">
+
+    <!-- Left: intro + details -->
+    <aside class="contact-aside">
+      <div class="eyebrow">Get in touch</div>
+      <h1 class="contact-title">Tell us about<br /><span class="ital">your doors</span>.</h1>
+      <p class="contact-lede">Share a little about your space and what you have in mind. We'll get back to you to talk options, timing and a quote.</p>
+
+      <div class="contact-cards">
+        <a class="c-card" href="mailto:nexodoors@gmail.com">
+          <h4>Email</h4>
+          <span>nexodoors@gmail.com</span>
+        </a>
+        <a class="c-card" href="tel:6506606396">
+          <h4>Phone</h4>
+          <span>650·660·6396</span>
+        </a>
+        <div class="c-card">
+          <h4>Area served</h4>
+          <span>The Bay Area, California</span>
+        </div>
+        <div class="c-card">
+          <h4>Hours</h4>
+          <span>Mon–Sat · 8am–6pm</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right: form -->
+    <div class="contact-form-wrap">
+      <form id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span class="opt">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="service">What are you interested in?</label>
+          <div class="select-wrap">
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service…</option>
+              <option value="Front Entry Doors">Front Entry Doors</option>
+              <option value="Interior Doors">Interior Doors</option>
+              <option value="Custom Solution">Custom Solution</option>
+              <option value="Not sure yet">Not sure yet — help me decide</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="5" placeholder="How many doors, what rooms, any style or material you're imagining, your timeline…" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--accent btn-submit">Send your message →</button>
+        <p class="form-note">Submitting opens your email app with the details ready to send to <strong>nexodoors@gmail.com</strong>.</p>
+      </form>
+
+      <!-- Success state -->
+      <div id="formSuccess" class="form-success" hidden>
+        <div class="fs-mark">✓</div>
+        <h3>Your message is ready.</h3>
+        <p>We've opened your email app with everything filled in — just hit send. If nothing opened, email us directly at <a href="mailto:nexodoors@gmail.com">nexodoors@gmail.com</a>.</p>
+        <button type="button" class="link-underline" id="resetForm">Write another message</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="logo-dark.png" alt="Nexo Doors" />
+        <p class="footer-tagline">Beyond Doors, Elevated Living</p>
+        <p style="max-width:320px">Front entry doors, interior doors and custom door solutions for homes across the Bay Area.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="tel:6506606396">650·660·6396</a>
+        <a href="mailto:nexodoors@gmail.com">nexodoors@gmail.com</a>
+        <a href="https://nexodoors.com">nexodoors.com</a>
+        <p>Serving the Bay Area, CA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nexo Doors · A division of Dev Builders Inc.</span>
+      <span class="lic">LIC. 1079628</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .contact { padding: 80px 0 96px; }
+  .contact-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 72px; align-items: start; }
+
+  .contact-title { font-size: 56px; line-height: 1.0; letter-spacing: -0.01em; margin: 24px 0 22px; }
+  .contact-title .ital { font-style: italic; color: var(--accent); }
+  .contact-lede { font-size: 17px; color: var(--ink-soft); margin: 0 0 40px; max-width: 380px; }
+
+  .contact-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .c-card { background: #fff; padding: 22px 22px 24px; display: block; transition: background .2s ease; }
+  a.c-card:hover { background: var(--paper-2); }
+  .c-card h4 { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .c-card span { font-size: 15.5px; color: var(--ink); }
+
+  /* Form */
+  .contact-form-wrap { border: 1px solid var(--line); background: var(--paper-2); padding: 44px 44px 40px; }
+  .field { margin-bottom: 22px; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  label { display: block; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 9px; }
+  label .opt { color: var(--muted); text-transform: none; letter-spacing: 0.02em; }
+  input, select, textarea {
+    width: 100%; font-family: var(--sans); font-size: 16px; color: var(--ink);
+    background: #fff; border: 1px solid var(--line); padding: 14px 16px;
+    border-radius: 0; outline: none; transition: border-color .2s ease, box-shadow .2s ease;
+  }
+  input::placeholder, textarea::placeholder { color: #b6b1a9; }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(217,106,42,0.12); }
+  textarea { resize: vertical; line-height: 1.55; }
+  .select-wrap { position: relative; }
+  .select-wrap::after { content: "▾"; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: var(--ink-soft); pointer-events: none; font-size: 12px; }
+  select { appearance: none; -webkit-appearance: none; cursor: pointer; }
+  .field.invalid input, .field.invalid select, .field.invalid textarea { border-color: #c0392b; box-shadow: 0 0 0 3px rgba(192,57,43,0.1); }
+  .btn-submit { margin-top: 6px; width: 100%; justify-content: center; }
+  .form-note { font-size: 12.5px; color: var(--muted); margin: 16px 0 0; text-align: center; }
+  .form-note strong { color: var(--ink-soft); }
+
+  .form-success { text-align: center; padding: 40px 20px; }
+  .fs-mark { width: 56px; height: 56px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 22px; }
+  .form-success h3 { font-size: 30px; font-weight: 600; margin-bottom: 12px; }
+  .form-success p { color: var(--ink-soft); max-width: 380px; margin: 0 auto 24px; }
+  .form-success a { color: var(--accent); border-bottom: 1px solid var(--accent); }
+
+  @media (max-width: 920px) {
+    .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+    .contact-title { font-size: 46px; }
+    .contact-form-wrap { padding: 32px 24px 30px; }
+  }
+  @media (max-width: 560px) {
+    .field-row { grid-template-columns: 1fr; gap: 0; }
+    .contact-cards { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script src="site.js"></script>
+<script>
+  (function () {
+    var form = document.getElementById("contactForm");
+    var success = document.getElementById("formSuccess");
+    var resetBtn = document.getElementById("resetForm");
+
+    function setInvalid(id, bad) {
+      var field = document.getElementById(id).closest(".field");
+      if (field) field.classList.toggle("invalid", bad);
+    }
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var name = document.getElementById("name").value.trim();
+      var email = document.getElementById("email").value.trim();
+      var phone = document.getElementById("phone").value.trim();
+      var service = document.getElementById("service").value;
+      var message = document.getElementById("message").value.trim();
+
+      var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      var ok = true;
+      if (!name) { setInvalid("name", true); ok = false; } else setInvalid("name", false);
+      if (!emailOk) { setInvalid("email", true); ok = false; } else setInvalid("email", false);
+      if (!service) { setInvalid("service", true); ok = false; } else setInvalid("service", false);
+      if (!message) { setInvalid("message", true); ok = false; } else setInvalid("message", false);
+      if (!ok) return;
+
+      var subject = "New door enquiry — " + service + " (" + name + ")";
+      var bodyLines = [
+        "Name: " + name,
+        "Email: " + email,
+        "Phone: " + (phone || "—"),
+        "Interested in: " + service,
+        "",
+        "Project details:",
+        message,
+        "",
+        "— Sent from nexodoors.com"
+      ];
+      var mailto = "mailto:nexodoors@gmail.com"
+        + "?subject=" + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(bodyLines.join("\n"));
+
+      window.location.href = mailto;
+
+      form.hidden = true;
+      success.hidden = false;
+    });
+
+    resetBtn.addEventListener("click", function () {
+      form.reset();
+      form.hidden = false;
+      success.hidden = true;
+      [].forEach.call(document.querySelectorAll(".field.invalid"), function (f) {
+        f.classList.remove("invalid");
+      });
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 600 680" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ipaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f5f0"></stop>
+      <stop offset="1" stop-color="#ece6dd"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="680" fill="url(#ipaper)"></rect>
+  <line x1="0" y1="600" x2="600" y2="600" stroke="#cbc2b6" stroke-width="2"></line>
+  <ellipse cx="300" cy="606" rx="150" ry="13" fill="#2a1f10" opacity="0.11"></ellipse>
+  
+  <rect x="184" y="84" width="232" height="516" fill="none" stroke="#26221e" stroke-width="3"></rect>
+  <rect x="196" y="96" width="208" height="504" fill="#f4f0ea" stroke="#26221e" stroke-width="1.5"></rect>
+  
+  <rect x="206" y="106" width="188" height="492" fill="#efe9e1" stroke="#26221e" stroke-width="2"></rect>
+  
+  <rect x="228" y="128" width="144" height="200" fill="none" stroke="#cdc4b7" stroke-width="2"></rect>
+  <rect x="234" y="134" width="132" height="188" fill="none" stroke="#cdc4b7" stroke-width="1.2"></rect>
+  
+  <line x1="206" y1="352" x2="394" y2="352" stroke="#26221e" stroke-width="1.4"></line>
+  <rect x="228" y="378" width="144" height="196" fill="none" stroke="#cdc4b7" stroke-width="2"></rect>
+  <rect x="234" y="384" width="132" height="184" fill="none" stroke="#cdc4b7" stroke-width="1.2"></rect>
+  
+  <circle cx="374" cy="352" r="6.5" fill="#d47e19" stroke="#b3680f" stroke-width="1"></circle>
+  <rect x="350" y="349" width="22" height="6" rx="3" fill="#d47e19" stroke="#b3680f" stroke-width="0.8"></rect>
+</svg>
